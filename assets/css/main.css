@@ -43,3 +43,40 @@
 .lucky-button {
 	margin-left: 10px;
 }
+#navbar-container {
+	border: 1px solid red;
+    width:100%;
+    display: flex;
+    justify-content:flex-end;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	border-radius: 100%;
+	padding: 8px;
+	color: black;
+	text-align: center;
+	padding: 5px 5px;
+	text-decoration: none;
+}
+.navbar-1 {
+	margin: 10px;
+}
+.navbar-1:hover {
+	text-decoration-line: underline;
+}
+.navbar-2 {
+	margin: 5px;
+}
+.navbar-2:hover {
+	background-color: gainsboro;
+}
